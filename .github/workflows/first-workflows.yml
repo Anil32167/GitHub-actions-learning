@@ -3,7 +3,7 @@ name: My First Workflow
 on:
  push:
    branches:
-      -main
+      - main
 
 jobs:
   first-job:
@@ -17,9 +17,3 @@ jobs:
 
       - name: Show git version 
         run: git --version
-
-    
-           
-         
-       
-       
